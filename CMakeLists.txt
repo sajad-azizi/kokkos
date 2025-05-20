@@ -21,4 +21,4 @@ target_link_libraries(${PROJECT_NAME} PRIVATE Kokkos::kokkoscore)
 ###mkdir build
 ###cd build
 ###cmake -DKokkos_DIR=/dss/lrzsys/sys/spack/release/24.1.1/opt/sapphirerapids/kokkos/4.3.01-oneapi-7n64bxg/lib64/cmake/Kokkos  ..
-###cmake -DKokkos_DIR=~/KOKKOS/kokkos-testing/working_kokkos/kokkos_lib/lib64/cmake/Kokkos  .. ## perfer 
+###cmake -DKokkos_DIR=~/KOKKOS/kokkos-testing/working_kokkos/kokkos_lib/lib64/cmake/Kokkos  .. ## prefer 
