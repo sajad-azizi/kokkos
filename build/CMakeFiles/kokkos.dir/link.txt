@@ -1,0 +1,1 @@
+icpx -DKOKKOS_DEPENDENCE -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -DDESUL_SYCL_DEVICE_GLOBAL_SUPPORTED CMakeFiles/kokkos.dir/src/hello_kokkos.cpp.o -o kokkos  /dss/dsshome1/08/di35ker/KOKKOS/kokkos-testing/working_kokkos/kokkos_lib/lib64/libkokkoscore.a -ldl 

@@ -1,0 +1,320 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 5.14.21-150500.55.65-default - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/icpx 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is IntelLLVM, found in:
+        /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles/3.27.7/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles/CMakeScratch/TryCompile-gzwtSG"
+      binary: "/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles/CMakeScratch/TryCompile-gzwtSG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles/CMakeScratch/TryCompile-gzwtSG'
+        
+        Run Build Command(s): /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9dff7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9dff7.dir/build.make CMakeFiles/cmTC_9dff7.dir/build
+        gmake[1]: Entering directory '/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles/CMakeScratch/TryCompile-gzwtSG'
+        Building CXX object CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o
+        /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/icpx   -v -MD -MT CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o -c /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Intel(R) oneAPI DPC++/C++ Compiler 2025.0.4 (2025.0.4.20241205)
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler
+        Configuration file: /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../icpx.cfg
+        Found candidate GCC installation: /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0
+        Selected GCC installation: /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -fveclib=SVML -faltmathlib=SVMLAltMathLibrary -mframe-pointer=none -fapprox-func -funsafe-math-optimizations -fno-signed-zeros -mreassociate -freciprocal-math -fdenormal-fp-math=preserve-sign,preserve-sign -ffp-contract=fast -fno-rounding-math -complex-range=promoted -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -mllvm -x86-enable-unaligned-vector-move=true -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles/CMakeScratch/TryCompile-gzwtSG -v -fcoverage-compilation-dir=/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles/CMakeScratch/TryCompile-gzwtSG -fclang-abi-compat=17 -resource-dir /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19 -dependency-file CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpct/2025.0.1-gcc-xxc6lns/dpcpp-ct/2025.0/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpl/2022.7.1-gcc-44bqnxn/dpl/2022.7/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/env/../include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/include -internal-isystem /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../opt/compiler/include -internal-isystem /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0 -internal-isystem /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-pc-linux-gnu -internal-isystem /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward -internal-isystem /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/include -internal-isystem /usr/local/include -internal-isystem /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -fdeprecated-macro -ferror-limit 19 -fheinous-gnu-extensions -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -mllvm -disable-hir-generate-mkl-call -mllvm -loopopt=1 -floopopt-pipeline=light -mllvm -intel-abi-compatible=true -D__GCC_HAVE_DWARF2_CFI_ASM=1 -fintel-compatibility -fintel-libirc-allowed -fintel-libimf-allowed -o CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o -x c++ /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 19.0.0git based upon LLVM 19.0.0git default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../x86_64-pc-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpct/2025.0.1-gcc-xxc6lns/dpcpp-ct/2025.0/include
+         /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpl/2022.7.1-gcc-44bqnxn/dpl/2022.7/include
+         /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/include
+         /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/include
+         /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/include
+         /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/env/../include
+         /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/include
+         /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/include
+         /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/include
+         /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/include
+         /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../opt/compiler/include
+         /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0
+         /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-pc-linux-gnu
+         /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward
+         /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_9dff7
+        /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dff7.dir/link.txt --verbose=1
+        /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/icpx  -v CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9dff7 
+        Intel(R) oneAPI DPC++/C++ Compiler 2025.0.4 (2025.0.4.20241205)
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler
+        Configuration file: /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../icpx.cfg
+        Found candidate GCC installation: /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0
+        Selected GCC installation: /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" -z relro --hash-style=both --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9dff7 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/crtbegin.o -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib -L/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0 -L/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../.. -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../opt/compiler/lib -L/lib -L/usr/lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/lib/ -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/env/../lib/intel64/gcc4.8 -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib -rpath /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lsvml -Bdynamic -Bstatic -lirng -Bdynamic -lstdc++ -Bstatic -limf -Bdynamic -lm -lgcc_s -lgcc -Bstatic -lirc -Bdynamic -ldl -lgcc_s -lgcc -lc -lgcc_s -lgcc -Bstatic -lirc_s -Bdynamic /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/crtend.o /usr/lib/../lib64/crtn.o
+        gmake[1]: Leaving directory '/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles/CMakeScratch/TryCompile-gzwtSG'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpct/2025.0.1-gcc-xxc6lns/dpcpp-ct/2025.0/include]
+          add: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpl/2022.7.1-gcc-44bqnxn/dpl/2022.7/include]
+          add: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/include]
+          add: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/include]
+          add: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/include]
+          add: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/env/../include]
+          add: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/include]
+          add: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/include]
+          add: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/include]
+          add: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/include]
+          add: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../opt/compiler/include]
+          add: [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0]
+          add: [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-pc-linux-gnu]
+          add: [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward]
+          add: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpct/2025.0.1-gcc-xxc6lns/dpcpp-ct/2025.0/include] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpct/2025.0.1-gcc-xxc6lns/dpcpp-ct/2025.0/include]
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpl/2022.7.1-gcc-44bqnxn/dpl/2022.7/include] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpl/2022.7.1-gcc-44bqnxn/dpl/2022.7/include]
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/include] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/include]
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/include] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/include]
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/include] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/include]
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/env/../include] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/include]
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/include] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/include]
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/include] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/include]
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/include] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/include]
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/include] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/include]
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../opt/compiler/include] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/opt/compiler/include]
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0] ==> [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/include/c++/13.2.0]
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-pc-linux-gnu] ==> [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/include/c++/13.2.0/x86_64-pc-linux-gnu]
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward] ==> [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/include/c++/13.2.0/backward]
+        collapse include dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/include] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpct/2025.0.1-gcc-xxc6lns/dpcpp-ct/2025.0/include;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpl/2022.7.1-gcc-44bqnxn/dpl/2022.7/include;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/include;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/include;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/include;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/include;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/include;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/include;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/include;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/include;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/opt/compiler/include;/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/include/c++/13.2.0;/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/include/c++/13.2.0/x86_64-pc-linux-gnu;/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/include/c++/13.2.0/backward;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles/CMakeScratch/TryCompile-gzwtSG']
+        ignore line: []
+        ignore line: [Run Build Command(s): /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9dff7/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_9dff7.dir/build.make CMakeFiles/cmTC_9dff7.dir/build]
+        ignore line: [gmake[1]: Entering directory '/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles/CMakeScratch/TryCompile-gzwtSG']
+        ignore line: [Building CXX object CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/icpx   -v -MD -MT CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o -c /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Intel(R) oneAPI DPC++/C++ Compiler 2025.0.4 (2025.0.4.20241205)]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler]
+        ignore line: [Configuration file: /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../icpx.cfg]
+        ignore line: [Found candidate GCC installation: /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0]
+        ignore line: [Selected GCC installation: /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -fveclib=SVML -faltmathlib=SVMLAltMathLibrary -mframe-pointer=none -fapprox-func -funsafe-math-optimizations -fno-signed-zeros -mreassociate -freciprocal-math -fdenormal-fp-math=preserve-sign preserve-sign -ffp-contract=fast -fno-rounding-math -complex-range=promoted -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -mllvm -x86-enable-unaligned-vector-move=true -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles/CMakeScratch/TryCompile-gzwtSG -v -fcoverage-compilation-dir=/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles/CMakeScratch/TryCompile-gzwtSG -fclang-abi-compat=17 -resource-dir /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19 -dependency-file CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpct/2025.0.1-gcc-xxc6lns/dpcpp-ct/2025.0/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpl/2022.7.1-gcc-44bqnxn/dpl/2022.7/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/env/../include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/include -I/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/include -internal-isystem /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../opt/compiler/include -internal-isystem /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0 -internal-isystem /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-pc-linux-gnu -internal-isystem /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward -internal-isystem /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/include -internal-isystem /usr/local/include -internal-isystem /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -fdeprecated-macro -ferror-limit 19 -fheinous-gnu-extensions -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -mllvm -disable-hir-generate-mkl-call -mllvm -loopopt=1 -floopopt-pipeline=light -mllvm -intel-abi-compatible=true -D__GCC_HAVE_DWARF2_CFI_ASM=1 -fintel-compatibility -fintel-libirc-allowed -fintel-libimf-allowed -o CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o -x c++ /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 19.0.0git based upon LLVM 19.0.0git default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpct/2025.0.1-gcc-xxc6lns/dpcpp-ct/2025.0/include]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dpl/2022.7.1-gcc-44bqnxn/dpl/2022.7/include]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/include]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/include]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/include]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/env/../include]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/include]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/include]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/include]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/include]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../opt/compiler/include]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-pc-linux-gnu]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward]
+        ignore line: [ /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_9dff7]
+        ignore line: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dff7.dir/link.txt --verbose=1]
+        ignore line: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/icpx  -v CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9dff7 ]
+        ignore line: [Intel(R) oneAPI DPC++/C++ Compiler 2025.0.4 (2025.0.4.20241205)]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler]
+        ignore line: [Configuration file: /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../icpx.cfg]
+        ignore line: [Found candidate GCC installation: /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0]
+        ignore line: [Selected GCC installation: /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" -z relro --hash-style=both --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9dff7 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/crtbegin.o -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib -L/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0 -L/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../.. -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../opt/compiler/lib -L/lib -L/usr/lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/lib/ -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/env/../lib/intel64/gcc4.8 -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/lib -L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib -rpath /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lsvml -Bdynamic -Bstatic -lirng -Bdynamic -lstdc++ -Bstatic -limf -Bdynamic -lm -lgcc_s -lgcc -Bstatic -lirc -Bdynamic -ldl -lgcc_s -lgcc -lc -lgcc_s -lgcc -Bstatic -lirc_s -Bdynamic /dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/crtend.o /usr/lib/../lib64/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_9dff7] ==> ignore
+          arg [/usr/lib/../lib64/crt1.o] ==> obj [/usr/lib/../lib64/crt1.o]
+          arg [/usr/lib/../lib64/crti.o] ==> obj [/usr/lib/../lib64/crti.o]
+          arg [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/crtbegin.o] ==> obj [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/crtbegin.o]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib]
+          arg [-L/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0] ==> dir [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0]
+          arg [-L/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../lib64] ==> dir [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../..] ==> dir [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../..]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../opt/compiler/lib] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../opt/compiler/lib]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/lib/] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/lib/]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/lib] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/lib]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/lib] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/lib]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/env/../lib/intel64/gcc4.8] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/env/../lib/intel64/gcc4.8]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/lib] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/lib]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/lib] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/lib]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/lib] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/lib]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/lib] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/lib]
+          arg [-L/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib] ==> dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib]
+          arg [-rpath] ==> ignore
+          arg [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib] ==> ignore
+          arg [CMakeFiles/cmTC_9dff7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-Bstatic] ==> search static
+          arg [-lsvml] ==> lib [svml]
+          arg [-Bdynamic] ==> search dynamic
+          arg [-Bstatic] ==> search static
+          arg [-lirng] ==> lib [irng]
+          arg [-Bdynamic] ==> search dynamic
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-Bstatic] ==> search static
+          arg [-limf] ==> lib [imf]
+          arg [-Bdynamic] ==> search dynamic
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-Bstatic] ==> search static
+          arg [-lirc] ==> lib [irc]
+          arg [-Bdynamic] ==> search dynamic
+          arg [-ldl] ==> lib [dl]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-Bstatic] ==> search static
+          arg [-lirc_s] ==> lib [irc_s]
+          arg [-Bdynamic] ==> search dynamic
+          arg [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/crtend.o] ==> obj [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/crtend.o]
+          arg [/usr/lib/../lib64/crtn.o] ==> obj [/usr/lib/../lib64/crtn.o]
+        collapse obj [/usr/lib/../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0] ==> [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../lib64] ==> [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../..] ==> [/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../lib] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/compiler/../../opt/compiler/lib] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/opt/compiler/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/lib/] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/lib]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/lib] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/lib]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/lib] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/lib]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/env/../lib/intel64/gcc4.8] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/lib/intel64/gcc4.8]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/lib] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/lib]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/lib] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/lib]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/lib] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/lib]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/lib] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/lib]
+        collapse library dir [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib] ==> [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib]
+        implicit libs: [svml;irng;stdc++;imf;m;gcc_s;gcc;irc;dl;gcc_s;gcc;c;gcc_s;gcc;irc_s]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/crtbegin.o;/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu;/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib/gcc/x86_64-pc-linux-gnu/13.2.0;/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib64;/lib64;/usr/lib64;/dss/lrzsys/sys/spack/release/24.0.0/opt/x86_64/gcc/13.2.0-gcc-flomgzy/lib;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/opt/compiler/lib;/lib;/usr/lib;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ippcp/2025.0.0-gcc-ax5stfd/ippcp/2025.0/lib;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dal/2025.0.0-gcc-iv6mrrw/dal/2025.0/lib;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-ipp/2022.0.0-gcc-djirgsz/ipp/2022.0/lib;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-tbb/2022.0.0-gcc-xswrur4/tbb/2022.0/lib/intel64/gcc4.8;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-dnn/2025.0.1-gcc-ml63frx/dnnl/2025.0/lib;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mkl/2025.0.1-gcc-25hcv7s/mkl/2025.0/lib;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-toolkit/2025.0.1/intel-oneapi-mpi/2021.14.1-gcc-yhykmvd/mpi/2021.14/lib;/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/umf/0.9/lib]
+        implicit fwks: []
+      
+      
+...
