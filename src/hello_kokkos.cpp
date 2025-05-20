@@ -1,4 +1,4 @@
-// matmul_kokkos.cpp
+
 #include <Kokkos_Core.hpp>
 #include <iostream>
 
