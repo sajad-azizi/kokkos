@@ -7,8 +7,10 @@ add_compile_options(-fsycl -fopenmp -w)
 find_package(Kokkos REQUIRED CONFIG)
 
 add_executable(${PROJECT_NAME}
-  src/hello_kokkos.cpp
+  ####src/hello_kokkos.cpp
   ####src/matmul_kokkos.cpp
+  ####src/view_kokkos.cpp
+  src/matrix_matrix_kokkos.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE Kokkos::kokkoscore)
