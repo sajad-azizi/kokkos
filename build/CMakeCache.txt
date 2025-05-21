@@ -28,7 +28,7 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2025.0.4-gcc-d6shrs5/compiler/2025.0/bin/icpx
+CMAKE_CXX_COMPILER:FILEPATH=/dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2024.1.0-gcc-lymzqpv/compiler/2024.1/bin/icpx
 
 //LLVM archiver
 CMAKE_CXX_COMPILER_AR:FILEPATH=CMAKE_CXX_COMPILER_AR-NOTFOUND

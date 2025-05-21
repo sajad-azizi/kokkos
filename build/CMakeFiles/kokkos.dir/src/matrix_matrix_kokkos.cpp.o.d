@@ -1,5 +1,5 @@
-CMakeFiles/kokkos.dir/src/hello_kokkos.cpp.o: \
-  /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/src/hello_kokkos.cpp \
+CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.o: \
+  /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/src/matrix_matrix_kokkos.cpp \
   /dss/dsshome1/08/di35ker/KOKKOS/kokkos-testing/working_kokkos/kokkos_lib/include/Kokkos_Core.hpp \
   /dss/dsshome1/08/di35ker/KOKKOS/kokkos-testing/working_kokkos/kokkos_lib/include/Kokkos_Core_fwd.hpp \
   /dss/dsshome1/08/di35ker/KOKKOS/kokkos-testing/working_kokkos/kokkos_lib/include/Kokkos_Macros.hpp \

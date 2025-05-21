@@ -129,29 +129,29 @@ kokkos/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/build
 .PHONY : kokkos/fast
 
-src/hello_kokkos.o: src/hello_kokkos.cpp.o
-.PHONY : src/hello_kokkos.o
+src/matrix_matrix_kokkos.o: src/matrix_matrix_kokkos.cpp.o
+.PHONY : src/matrix_matrix_kokkos.o
 
 # target to build an object file
-src/hello_kokkos.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/hello_kokkos.cpp.o
-.PHONY : src/hello_kokkos.cpp.o
+src/matrix_matrix_kokkos.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.o
+.PHONY : src/matrix_matrix_kokkos.cpp.o
 
-src/hello_kokkos.i: src/hello_kokkos.cpp.i
-.PHONY : src/hello_kokkos.i
+src/matrix_matrix_kokkos.i: src/matrix_matrix_kokkos.cpp.i
+.PHONY : src/matrix_matrix_kokkos.i
 
 # target to preprocess a source file
-src/hello_kokkos.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/hello_kokkos.cpp.i
-.PHONY : src/hello_kokkos.cpp.i
+src/matrix_matrix_kokkos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.i
+.PHONY : src/matrix_matrix_kokkos.cpp.i
 
-src/hello_kokkos.s: src/hello_kokkos.cpp.s
-.PHONY : src/hello_kokkos.s
+src/matrix_matrix_kokkos.s: src/matrix_matrix_kokkos.cpp.s
+.PHONY : src/matrix_matrix_kokkos.s
 
 # target to generate assembly for a file
-src/hello_kokkos.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/hello_kokkos.cpp.s
-.PHONY : src/hello_kokkos.cpp.s
+src/matrix_matrix_kokkos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.s
+.PHONY : src/matrix_matrix_kokkos.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... kokkos"
-	@echo "... src/hello_kokkos.o"
-	@echo "... src/hello_kokkos.i"
-	@echo "... src/hello_kokkos.s"
+	@echo "... src/matrix_matrix_kokkos.o"
+	@echo "... src/matrix_matrix_kokkos.i"
+	@echo "... src/matrix_matrix_kokkos.s"
 .PHONY : help
 
 
