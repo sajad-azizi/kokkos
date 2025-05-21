@@ -11,7 +11,8 @@ add_executable(${PROJECT_NAME}
   ####src/matmul_kokkos.cpp
   ####src/view_kokkos.cpp
   ####src/matrix_matrix_kokkos.cpp
-  src/matrix_matrix_kokkos_cpu.cpp
+  ####src/matrix_matrix_kokkos_cpu.cpp
+  src/matrix_matrix_kokkos_teams.cpp 
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE Kokkos::kokkoscore)
