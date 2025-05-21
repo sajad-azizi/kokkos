@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/dss/dsshome1/08/di35ker/KOKKOS/kokkos/src/matrix_matrix_kokkos_cpu.cpp" "CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o" "gcc" "CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o.d"
+  "/dss/dsshome1/08/di35ker/KOKKOS/kokkos/src/matrix_matrix_kokkos_teams.cpp" "CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_teams.cpp.o" "gcc" "CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_teams.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

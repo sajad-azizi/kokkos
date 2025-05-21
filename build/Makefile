@@ -129,29 +129,29 @@ kokkos/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/build
 .PHONY : kokkos/fast
 
-src/matrix_matrix_kokkos_cpu.o: src/matrix_matrix_kokkos_cpu.cpp.o
-.PHONY : src/matrix_matrix_kokkos_cpu.o
+src/matrix_matrix_kokkos_teams.o: src/matrix_matrix_kokkos_teams.cpp.o
+.PHONY : src/matrix_matrix_kokkos_teams.o
 
 # target to build an object file
-src/matrix_matrix_kokkos_cpu.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o
-.PHONY : src/matrix_matrix_kokkos_cpu.cpp.o
+src/matrix_matrix_kokkos_teams.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_teams.cpp.o
+.PHONY : src/matrix_matrix_kokkos_teams.cpp.o
 
-src/matrix_matrix_kokkos_cpu.i: src/matrix_matrix_kokkos_cpu.cpp.i
-.PHONY : src/matrix_matrix_kokkos_cpu.i
+src/matrix_matrix_kokkos_teams.i: src/matrix_matrix_kokkos_teams.cpp.i
+.PHONY : src/matrix_matrix_kokkos_teams.i
 
 # target to preprocess a source file
-src/matrix_matrix_kokkos_cpu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.i
-.PHONY : src/matrix_matrix_kokkos_cpu.cpp.i
+src/matrix_matrix_kokkos_teams.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_teams.cpp.i
+.PHONY : src/matrix_matrix_kokkos_teams.cpp.i
 
-src/matrix_matrix_kokkos_cpu.s: src/matrix_matrix_kokkos_cpu.cpp.s
-.PHONY : src/matrix_matrix_kokkos_cpu.s
+src/matrix_matrix_kokkos_teams.s: src/matrix_matrix_kokkos_teams.cpp.s
+.PHONY : src/matrix_matrix_kokkos_teams.s
 
 # target to generate assembly for a file
-src/matrix_matrix_kokkos_cpu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.s
-.PHONY : src/matrix_matrix_kokkos_cpu.cpp.s
+src/matrix_matrix_kokkos_teams.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_teams.cpp.s
+.PHONY : src/matrix_matrix_kokkos_teams.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... kokkos"
-	@echo "... src/matrix_matrix_kokkos_cpu.o"
-	@echo "... src/matrix_matrix_kokkos_cpu.i"
-	@echo "... src/matrix_matrix_kokkos_cpu.s"
+	@echo "... src/matrix_matrix_kokkos_teams.o"
+	@echo "... src/matrix_matrix_kokkos_teams.i"
+	@echo "... src/matrix_matrix_kokkos_teams.s"
 .PHONY : help
 
 

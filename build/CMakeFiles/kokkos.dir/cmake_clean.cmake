@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o"
-  "CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o.d"
+  "CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_teams.cpp.o"
+  "CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_teams.cpp.o.d"
   "kokkos"
   "kokkos.pdb"
 )
