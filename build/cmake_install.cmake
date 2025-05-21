@@ -1,4 +1,4 @@
-# Install script for directory: /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication
+# Install script for directory: /dss/dsshome1/08/di35ker/KOKKOS/kokkos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/dss/dsshome1/08/di35ker/KOKKOS/kokkos/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

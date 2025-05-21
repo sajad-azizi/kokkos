@@ -10,7 +10,8 @@ add_executable(${PROJECT_NAME}
   ####src/hello_kokkos.cpp
   ####src/matmul_kokkos.cpp
   ####src/view_kokkos.cpp
-  src/matrix_matrix_kokkos.cpp
+  ####src/matrix_matrix_kokkos.cpp
+  src/matrix_matrix_kokkos_cpu.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE Kokkos::kokkoscore)
@@ -22,5 +23,9 @@ target_link_libraries(${PROJECT_NAME} PRIVATE Kokkos::kokkoscore)
 ###module load intel-toolkit
 ###mkdir build
 ###cd build
-###cmake -DKokkos_DIR=/dss/lrzsys/sys/spack/release/24.1.1/opt/sapphirerapids/kokkos/4.3.01-oneapi-7n64bxg/lib64/cmake/Kokkos  ..
-###cmake -DKokkos_DIR=~/KOKKOS/kokkos-testing/working_kokkos/kokkos_lib/lib64/cmake/Kokkos  .. ## prefer 
+
+##HOST ..OpenMP
+###cmake -DKokkos_DIR=/dss/lrzsys/sys/spack/release/24.1.1/opt/sapphirerapids/kokkos/4.3.01-oneapi-7n64bxg/lib64/cmake/Kokkos  .. 
+
+##DEVICE ... here SYCL
+###cmake -DKokkos_DIR=~/KOKKOS/kokkos-testing/working_kokkos/kokkos_lib/lib64/cmake/Kokkos  ..

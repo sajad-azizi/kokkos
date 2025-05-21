@@ -4,7 +4,7 @@
 # compile CXX with icpx
 CXX_DEFINES = -DKOKKOS_DEPENDENCE
 
-CXX_INCLUDES = -isystem /dss/dsshome1/08/di35ker/KOKKOS/kokkos-testing/working_kokkos/kokkos_lib/include
+CXX_INCLUDES = -isystem /dss/lrzsys/sys/spack/release/24.1.1/opt/sapphirerapids/kokkos/4.3.01-oneapi-7n64bxg/include
 
-CXX_FLAGS = -fsycl -fopenmp -w -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fno-sycl-rdc -DDESUL_SYCL_DEVICE_GLOBAL_SUPPORTED
+CXX_FLAGS = -fsycl -fopenmp -w -march=skylake-avx512 -mtune=skylake-avx512 -fiopenmp
 

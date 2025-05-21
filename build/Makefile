@@ -57,10 +57,10 @@ RM = /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication
+CMAKE_SOURCE_DIR = /dss/dsshome1/08/di35ker/KOKKOS/kokkos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build
+CMAKE_BINARY_DIR = /dss/dsshome1/08/di35ker/KOKKOS/kokkos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /dss/dsshome1/08/di35ker/KOKKOS/kokkos/build/CMakeFiles /dss/dsshome1/08/di35ker/KOKKOS/kokkos/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /dss/dsshome1/08/di35ker/KOKKOS/kokkos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ kokkos/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/build
 .PHONY : kokkos/fast
 
-src/matrix_matrix_kokkos.o: src/matrix_matrix_kokkos.cpp.o
-.PHONY : src/matrix_matrix_kokkos.o
+src/matrix_matrix_kokkos_cpu.o: src/matrix_matrix_kokkos_cpu.cpp.o
+.PHONY : src/matrix_matrix_kokkos_cpu.o
 
 # target to build an object file
-src/matrix_matrix_kokkos.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.o
-.PHONY : src/matrix_matrix_kokkos.cpp.o
+src/matrix_matrix_kokkos_cpu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o
+.PHONY : src/matrix_matrix_kokkos_cpu.cpp.o
 
-src/matrix_matrix_kokkos.i: src/matrix_matrix_kokkos.cpp.i
-.PHONY : src/matrix_matrix_kokkos.i
+src/matrix_matrix_kokkos_cpu.i: src/matrix_matrix_kokkos_cpu.cpp.i
+.PHONY : src/matrix_matrix_kokkos_cpu.i
 
 # target to preprocess a source file
-src/matrix_matrix_kokkos.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.i
-.PHONY : src/matrix_matrix_kokkos.cpp.i
+src/matrix_matrix_kokkos_cpu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.i
+.PHONY : src/matrix_matrix_kokkos_cpu.cpp.i
 
-src/matrix_matrix_kokkos.s: src/matrix_matrix_kokkos.cpp.s
-.PHONY : src/matrix_matrix_kokkos.s
+src/matrix_matrix_kokkos_cpu.s: src/matrix_matrix_kokkos_cpu.cpp.s
+.PHONY : src/matrix_matrix_kokkos_cpu.s
 
 # target to generate assembly for a file
-src/matrix_matrix_kokkos.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.s
-.PHONY : src/matrix_matrix_kokkos.cpp.s
+src/matrix_matrix_kokkos_cpu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.s
+.PHONY : src/matrix_matrix_kokkos_cpu.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... kokkos"
-	@echo "... src/matrix_matrix_kokkos.o"
-	@echo "... src/matrix_matrix_kokkos.i"
-	@echo "... src/matrix_matrix_kokkos.s"
+	@echo "... src/matrix_matrix_kokkos_cpu.o"
+	@echo "... src/matrix_matrix_kokkos_cpu.i"
+	@echo "... src/matrix_matrix_kokkos_cpu.s"
 .PHONY : help
 
 

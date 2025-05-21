@@ -53,10 +53,10 @@ RM = /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication
+CMAKE_SOURCE_DIR = /dss/dsshome1/08/di35ker/KOKKOS/kokkos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build
+CMAKE_BINARY_DIR = /dss/dsshome1/08/di35ker/KOKKOS/kokkos/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/kokkos.dir/depend.make
@@ -69,32 +69,34 @@ include CMakeFiles/kokkos.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/kokkos.dir/flags.make
 
-CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.o: CMakeFiles/kokkos.dir/flags.make
-CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.o: /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/src/matrix_matrix_kokkos.cpp
-CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.o: CMakeFiles/kokkos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.o"
-	icpx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.o -MF CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.o.d -o CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.o -c /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/src/matrix_matrix_kokkos.cpp
+CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o: CMakeFiles/kokkos.dir/flags.make
+CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o: /dss/dsshome1/08/di35ker/KOKKOS/kokkos/src/matrix_matrix_kokkos_cpu.cpp
+CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o: CMakeFiles/kokkos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/dss/dsshome1/08/di35ker/KOKKOS/kokkos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o"
+	icpx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o -MF CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o.d -o CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o -c /dss/dsshome1/08/di35ker/KOKKOS/kokkos/src/matrix_matrix_kokkos_cpu.cpp
 
-CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.i"
-	icpx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/src/matrix_matrix_kokkos.cpp > CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.i
+CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.i"
+	icpx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /dss/dsshome1/08/di35ker/KOKKOS/kokkos/src/matrix_matrix_kokkos_cpu.cpp > CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.i
 
-CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.s"
-	icpx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/src/matrix_matrix_kokkos.cpp -o CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.s
+CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.s"
+	icpx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /dss/dsshome1/08/di35ker/KOKKOS/kokkos/src/matrix_matrix_kokkos_cpu.cpp -o CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.s
 
 # Object files for target kokkos
 kokkos_OBJECTS = \
-"CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.o"
+"CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o"
 
 # External object files for target kokkos
 kokkos_EXTERNAL_OBJECTS =
 
-kokkos: CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos.cpp.o
+kokkos: CMakeFiles/kokkos.dir/src/matrix_matrix_kokkos_cpu.cpp.o
 kokkos: CMakeFiles/kokkos.dir/build.make
-kokkos: /dss/dsshome1/08/di35ker/KOKKOS/kokkos-testing/working_kokkos/kokkos_lib/lib64/libkokkoscore.a
+kokkos: /dss/lrzsys/sys/spack/release/24.1.1/opt/sapphirerapids/kokkos/4.3.01-oneapi-7n64bxg/lib64/libkokkoscore.so.4.3.1
+kokkos: /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/intel-oneapi-compilers/2024.1.0-gcc-lymzqpv/compiler/2024.1/lib/libiomp5.so
+kokkos: /usr/lib64/libpthread.so
 kokkos: CMakeFiles/kokkos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable kokkos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/dss/dsshome1/08/di35ker/KOKKOS/kokkos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable kokkos"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kokkos.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +108,6 @@ CMakeFiles/kokkos.dir/clean:
 .PHONY : CMakeFiles/kokkos.dir/clean
 
 CMakeFiles/kokkos.dir/depend:
-	cd /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles/kokkos.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /dss/dsshome1/08/di35ker/KOKKOS/kokkos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /dss/dsshome1/08/di35ker/KOKKOS/kokkos /dss/dsshome1/08/di35ker/KOKKOS/kokkos /dss/dsshome1/08/di35ker/KOKKOS/kokkos/build /dss/dsshome1/08/di35ker/KOKKOS/kokkos/build /dss/dsshome1/08/di35ker/KOKKOS/kokkos/build/CMakeFiles/kokkos.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/kokkos.dir/depend
 

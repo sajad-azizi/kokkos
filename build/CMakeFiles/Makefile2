@@ -54,10 +54,10 @@ RM = /dss/lrzsys/sys/spack/release/24.1.1/opt/x86_64/cmake/3.27.7-gcc-giowof3/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication
+CMAKE_SOURCE_DIR = /dss/dsshome1/08/di35ker/KOKKOS/kokkos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build
+CMAKE_BINARY_DIR = /dss/dsshome1/08/di35ker/KOKKOS/kokkos/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/kokkos.dir/clean
 CMakeFiles/kokkos.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kokkos.dir/build.make CMakeFiles/kokkos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles --progress-num=1,2 "Built target kokkos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/dss/dsshome1/08/di35ker/KOKKOS/kokkos/build/CMakeFiles --progress-num=1,2 "Built target kokkos"
 .PHONY : CMakeFiles/kokkos.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/kokkos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /dss/dsshome1/08/di35ker/KOKKOS/kokkos/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/kokkos.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /dss/dsshome1/08/di35ker/KOKKOS/kokkos-MM-multiplication/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /dss/dsshome1/08/di35ker/KOKKOS/kokkos/build/CMakeFiles 0
 .PHONY : CMakeFiles/kokkos.dir/rule
 
 # Convenience name for target.
