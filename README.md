@@ -1,2 +1,2 @@
-# kokkos-MM-multiplication
+# kokkos
 Kokkos Matrix-Matrix multiplication
